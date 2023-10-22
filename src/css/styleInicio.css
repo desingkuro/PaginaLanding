@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+.contenedorPrincipal{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('https://th.bing.com/th/id/R.d7e2c996ba4a5960da1b5fc90a31f3be?rik=C7qznfiyAwSj3A&pid=ImgRaw&r=0');
+    flex-direction: column;
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.contenedorPrincipal::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0000009d;
+}
+
+.cont_menuBar{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    z-index: 900;
+    >nav{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        >ul{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.menuBar>ul>li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 120px;
+    height: 100%;
+    transition: .3s linear;
+    cursor: pointer;
+    >a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.menuBar>ul>li:hover{
+    background-color: #e0e0e044;
+    transition: .3s linear;
+}
+
+.principalPresentacion{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 800;
+    >h1{
+        font-size: 3em;
+        color: white;
+    }
+    >p{
+        color: white;
+        font-size: 1.5em;
+    }
+    >button{
+        height: 60px;
+        padding: 0px 30px;
+        font-size: 1em;
+        background-color: rgb(29, 207, 252);
+        color: #ffff;
+        font-weight: 600;
+        border-radius: 10px;
+        cursor:pointer;
+        margin-top: 30px;
+    }
+}
