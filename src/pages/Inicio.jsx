@@ -21,9 +21,8 @@ export function Inicio(){
             <header className={menu}>
                 <nav className='menuBar'>
                     <ul>
-                        <li><a href="Inicio" id="">Inicio</a></li>
-                        <li><a href="#" id="">Servicios</a></li>
-                        <li><a href="#" id="">Historia</a></li>
+                        <li><a href="#Inicio" id="">Inicio</a></li>
+                        <li><a href="#Servicios" id="">Servicios</a></li>
                         <li><a href="#" id="">Proyectos</a></li>
                         <li><a href="#" id="">Equipo</a></li>
                         <li><a href="#" id="">Contacto</a></li>
