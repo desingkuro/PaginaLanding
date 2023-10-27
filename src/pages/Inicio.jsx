@@ -23,8 +23,8 @@ export function Inicio(){
                     <ul>
                         <li><a href="#Inicio" id="">Inicio</a></li>
                         <li><a href="#Servicios" id="">Servicios</a></li>
-                        <li><a href="#" id="">Proyectos</a></li>
-                        <li><a href="#" id="">Equipo</a></li>
+                        <li><a href="#Proyectos" id="">Proyectos</a></li>
+                        <li><a href="#Equipo" id="">Equipo</a></li>
                         <li><a href="#" id="">Contacto</a></li>
                     </ul>
                 </nav>

@@ -1,3 +1,4 @@
+import { Equipo } from './pages/Equipo'
 import { Inicio } from './pages/Inicio'
 import { Proyectos } from './pages/Proyectos'
 import { Servicios } from './pages/Servicios'
@@ -9,6 +10,7 @@ function App() {
       <Inicio/>
       <Servicios/>
       <Proyectos/>
+      <Equipo/>
     </>
   )
 }

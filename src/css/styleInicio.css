@@ -32,8 +32,9 @@ button.cont_menuBar{
 .cont_menuBar{
     height: 40px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 900;
+    margin-top: 10px;
     >nav{
         height: 100%;
         width: 100%;
@@ -178,6 +179,7 @@ button {
         left: 0%;
         transition: linear .2s;
         clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+        margin-top: 0%;
         >nav{
             height: 100%;
             width: 100%;
