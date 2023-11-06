@@ -60,6 +60,7 @@
     font-weight: bold;
     border-radius: 15px;
     cursor: pointer;
+    text-align: center;
   }
   
   .card::before,

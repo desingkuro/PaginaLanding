@@ -30,8 +30,8 @@ export function Inicio(){
                 </nav>
             </header>
             <div className='principalPresentacion'>
-                <h1>Desarrolla tu web con nosotros!</h1>
-                <p>Has que el mundo conosca tu negocio</p>
+                <h1>¡Desarrolla tu web con nosotros!</h1>
+                <p>Has que el mundo conozca tu negocio</p>
                 <button>Conoce mas de nosotros</button>
             </div>
         </main>

@@ -1,6 +1,6 @@
 import '../css/styleEquipo.css'
 
-export function CardPerson(){
+export function CardPerson({nombre,titulo,portafolio,contacto}){
     return(
         <div class="cardPerson">
             <div class="card__img">
@@ -14,8 +14,8 @@ export function CardPerson(){
             <div class="card__avatar">
                 
             </div>
-            <div class="card__title">Cameron Williamson</div>
-            <div class="card__subtitle">Web Development</div>
+            <div class="card__title">{nombre}</div>
+            <div class="card__subtitle">{titulo}</div>
             <div class="card__wrapper">
                 <button class="card__btn">Portafolio</button>
                 <button class="card__btn card__btn-solid">Contacto</button>
