@@ -1,0 +1,135 @@
+/* Contact.css */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    min-width: 380px;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px 0px;
+  }
+  .form-container{
+    width: 45%;
+    min-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+  .contact-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 350px;
+  }
+  
+  .contact-form h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all ease .5s;
+    width: 100%;
+  }
+  .contact-form button:hover{
+    background-color: #0069af;
+    transition: all ease .5s;
+  }
+  
+  .success {
+    color: #00cc00;
+    font-weight: bold;
+  }
+  
+  .contact-whatsapp {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    min-width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contact-whatsapp h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-whatsapp p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #25d366;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all ease .5s;
+    cursor: pointer;
+    width: 40%;
+    min-width: 300px;
+  }
+  .whatsapp-button:hover{
+    transform: scale(1.03);
+    transition: all ease .5s;
+  }
+  
+  .whatsapp-icon {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  

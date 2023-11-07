@@ -3,13 +3,16 @@ import '../css/styleInicio.css'
 
 export function Inicio(){
     const[menu,setMenu]=useState('cont_menuBar');
+    const[menuIcon,setMenuIcon]=useState('menu__icon');
     return(
         <main className="contenedorPrincipal" id='Inicio'>
             <div className="background">
-                <button className="menu__icon" onClick={()=>{
+                <button className={menuIcon} onClick={()=>{
                     if(menu=='cont_menuBar'){
                         setMenu('cont_menuBar cerrado')
+                        setMenuIcon("menu__icon_abierto")
                     }else{
+                        setMenuIcon("menu__icon")
                         setMenu('cont_menuBar')
                     }
                 }}>
@@ -23,9 +26,9 @@ export function Inicio(){
                     <ul>
                         <li><a href="#Inicio" id="">Inicio</a></li>
                         <li><a href="#Servicios" id="">Servicios</a></li>
-                        <li><a href="#Proyectos" id="">Proyectos</a></li>
+                        {<li><a href="#Conocenos" id="">Conocenos</a></li>}
                         <li><a href="#Equipo" id="">Equipo</a></li>
-                        <li><a href="#" id="">Contacto</a></li>
+                        <li><a href="#Contacto" id="">Contacto</a></li>
                     </ul>
                 </nav>
             </header>
